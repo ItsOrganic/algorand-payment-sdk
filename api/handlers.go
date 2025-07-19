@@ -88,7 +88,8 @@ func (s *Server) initPayment(c *gin.Context) {
 		c.JSON(http.StatusBadRequest, gin.H{"error": err.Error()})
 		return
 	}
-
+	// When api keys are there uncomment below piece to verify the address
+	
 	// Validate merchant address
 	// if err := s.algoClient.ValidateAddress(req.MerchantAddress); err != nil {
 	// 	c.JSON(http.StatusBadRequest, gin.H{"error": "Invalid merchant address"})
