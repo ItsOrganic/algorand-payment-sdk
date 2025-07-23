@@ -22,7 +22,7 @@ func LoadConfig() *Config {
 	if err != nil {
 		timeout = 30 // default 30 minutes
 	}
-
+	// Hardcoded testnet configs 
 	return &Config{
 		Port:           getEnv("PORT", "8080"),
 		DatabasePath:   getEnv("DATABASE_PATH", "./algopay.db"),
