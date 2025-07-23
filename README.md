@@ -38,8 +38,7 @@ Before you begin, ensure you have the following installed:
 
 1. **Clone the repository:**
    ```bash
-   git clone <repository-url>
-   cd algopay
+   git clone https://github.com/ItsOrganic/algorand-payment-sdk &&  cd algopay
    ```
 
 2. **Install dependencies:**
